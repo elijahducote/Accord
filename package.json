@@ -1,11 +1,12 @@
 {
   "name": "Accord",
+  "description": "",
   "version": "0.0.0",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "discord.js": "11.2.0"
+    "discord.js": "11.1.0"
   }
 }
