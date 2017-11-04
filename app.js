@@ -5,7 +5,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
 
    console.log('${client.user.username} is ready');
-   client.user.setGame(game: 'on 1 server(s)', 'https://www.dumbkids.xyz/')
+   client.user.setGame('on 1 server(s)', 'https://dumbkids.xyz')
 
 });
 
