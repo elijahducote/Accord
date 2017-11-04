@@ -6,7 +6,7 @@ client.on('ready', () => {
 
    console.log('${client.user.username} is ready');
    client.user.setPresence({ game: { name: 'on 1 server(s)', type: 0 } });
-   client.user.setPresence({ game: { name: 'https://dumbkids.xyz', type: 1 } })
+   client.user.setGame('on 1 server(s)', 'https://dumbkids.xyz')
 
 });
 
