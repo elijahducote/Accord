@@ -5,7 +5,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
 
    console.log('${client.user.username} is ready');
-   client.user.setGame(` with ${client.user.size} users` );
+   client.user.setGame(`with ${client.guilds.size} servers` );
 
 });
 
