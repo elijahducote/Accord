@@ -5,8 +5,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
 
    console.log('${client.user.username} is ready');
-   client.user.setPresence({ game: { name: 'on 1 server (s)', type: 0 } });
-   client.user.setGame('on 1 server (s)', 'https://dumbkids.xyz')
+   client.user.setGame('on ${client.guilds.size} server (s)' )
 
 });
 
